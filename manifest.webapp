@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0",
+  "name": "DTU Classroom Notes",
+  "description": "An app to store notes of all users for DTU students.",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/icon16X16.png",
+    "48": "/img/icons/icon48X48.png",
+    "60": "/img/icons/icon60X60.png",
+    "128": "/img/icons/icon128X128.png"
+  },
+  "developer": {
+    "name": "Akaash, Anasuya",
+    "url": "github.com/akaashnidhiss"
+  },
+  "type": "privileged",
+//   "permissions": {
+//     "geolocation": {
+//       "description": "Obtain the current location of the user"
+//     }
+//   },
+  "default_locale": "en"
+}
