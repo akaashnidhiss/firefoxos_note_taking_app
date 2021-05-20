@@ -96,7 +96,7 @@ function attachEventsToElements() {
 
 function initDB() {
 
-    var request = indexedDB.open('notes_classdb_new', 1);
+    var request = indexedDB.open('classDB_notes', 1);
     console.log('initdb made');
     request.onsuccess = function(e) {
         // e.target.result has the connection to the database
